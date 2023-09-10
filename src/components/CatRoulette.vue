@@ -2,7 +2,7 @@
     <div id="main">
         <div id="div_img">
             <img id="img" v-if="imgUrl != ''" :src=imgUrl alt="">
-            <p id="img" v-else>Activez la CatRoulette !</p>
+            <img id="gommette" v-else src="../assets/gommette.jpg">
         </div>
         <div id="div_button">
             <button id="button" type="button" class="btn btn-primary btn-lg" v-on:click="onClickButton">{{ msg }}</button>
@@ -61,5 +61,10 @@ export default {
     height: fit-content;
     margin: 2%;
     align-self: center;
+}
+
+#gommette {
+    height: 500px;
+    width: 400px;
 }
 </style>
