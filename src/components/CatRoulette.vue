@@ -43,17 +43,16 @@ export default {
 }
 
 #main {
-    background-color: black;
     height: 100%;
     width: 100%;
-    color: white;
+
 }
 
 #div_button {
     position: absolute;
     top: 80vh;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 #div_img {

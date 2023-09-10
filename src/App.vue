@@ -16,7 +16,7 @@ export default {
 
 <style>
 body {
-  background-color: white;
+  background-color: black;
   height: initial;
 }
 
@@ -27,7 +27,6 @@ body {
 }
 
 #container {
-  background-color: white;
   /* border: 2px white solid; */
   width: 100%;
   height: 100%;
