@@ -5,7 +5,7 @@
             <p id="img" v-else>Activez la CatRoulette !</p>
         </div>
         <div id="div_button">
-            <button id="button" type="button" v-on:click="onClickButton">{{ msg }}</button>
+            <button id="button" type="button" class="btn btn-primary btn-lg" v-on:click="onClickButton">{{ msg }}</button>
         </div>
     </div>
 </template>
@@ -51,7 +51,7 @@ export default {
 
 #div_button {
     position: absolute;
-    top: 90vh;
+    top: 80vh;
     width: 50%;
     margin-left: 30%;
 }
